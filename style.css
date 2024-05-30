@@ -254,11 +254,7 @@ header {
     background-position: 80% 20%;
     opacity: 0.05; /* Ajuste a opacidade conforme necessário */
 }
-
-.music-info p {
-    margin-top: 0;
-
-}   
+  
 .music.content-section.active > .music-info {
     position: relative;
     z-index: 1;
@@ -441,7 +437,9 @@ padding: 5px;
     overflow: hidden;
 }
 
-
+.music-info p {
+    margin-top: 0;
+} 
 
 @keyframes glowingBorder2 {
     0% {
