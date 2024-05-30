@@ -255,6 +255,10 @@ header {
     opacity: 0.05; /* Ajuste a opacidade conforme necessário */
 }
 
+.music-info p {
+    margin-top: 0;
+
+}   
 .music.content-section.active > .music-info {
     position: relative;
     z-index: 1;
